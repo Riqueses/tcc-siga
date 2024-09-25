@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Saída</title>
+</head>
+<body>
+    <h1>Minha Página Web</h1>
+    <p>Experimente fechar esta página para ver a caixa de confirmação.</p>
+
+    <script>
+        window.addEventListener('beforeunload', function (e) {
+            // Mensagem padrão para navegadores modernos
+            var message = 'Você tem certeza que deseja sair?';
+
+            // Para navegadores modernos
+            e.returnValue = message;
+
+            // Para navegadores antigos
+            return message;
+        });
+    </script>
+</body>
+</html>

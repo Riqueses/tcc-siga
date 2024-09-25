@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+main {
+    padding-top: 150px;
+}
+
+#nome_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+    pointer-events: none;
+}
+
+#container_dados {
+    width: 30%;
+    /* Define o tamanho menor da tabela de dados */
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#container_dados table {
+    width: 100%;
+    text-align: left;
+    table-layout: auto;
+}
+
+#container_dados td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#container_dados .titulo {
+    color: #8f0000;
+    /* Define a cor dos textos específicos */
+    font-weight: bold;
+    /* Adiciona negrito para destacar */
+}
+
+#container-horario {
+    width: 80%;
+    /* Define o tamanho maior da tabela de horários */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#tabela-wrapper {
+    overflow-x: auto;
+}
+
+#tabela-horario {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-horario th,
+#tabela-horario td,
+#tabela_disciplina {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    width: 16.66%;
+}
+
+#tabela-horario th {
+    background-color: #8f0000;
+    color: white;
+}
+
+#tabela-horario .horario {
+    background-color: #e7e7e7;
+    font-weight: bold;
+    width: 13%;
+}
+
+#tabela-horario .disciplina {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+#tabela-horario tr:nth-child(even) .disciplina {
+    background-color: #f2f2f2;
+}
+
+#container_disciplinas {
+    width: 80%;
+    /* Define o tamanho maior da tabela de disciplinas */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.tabela_disciplinas {
+    width: 100%;
+    border-collapse: collapse;
+    padding-top: 10%;
+}
+
+.tabela_disciplinas thead th {
+    background-color: #8f0000;
+    /* Mesma cor do cabeçalho */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.tabela_disciplinas tbody td {
+    padding: 10px;
+    text-align: center;
+    /* Alinhamento centralizado */
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 16.66%;
+}
+
+.tabela_disciplinas tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.tabela_disciplinas tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tabela_disciplinas thead th {
+    font-size: 16px;
+}
+
+#container_disciplinas .titulo {
+    font-weight: bold;
+    /* Adiciona negrito para destacar */
+}
+
+/* Adiciona o clear para a seção de contato */
+.Contato {
+    clear: both;
+    margin-top: 20px;
+}

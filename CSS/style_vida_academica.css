@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main {
+    padding-top: 150px;
+}
+
+#nome_pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+    pointer-events: none;
+}
+
+#container_dados {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#container_dados table {
+    width: 100%;
+    text-align: left;
+    table-layout: auto;
+}
+
+#container_dados td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#container_dados .titulo {
+    color: #8f0000;
+    font-weight: bold;
+}
+
+#container-materia {
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#tabela-materia {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-materia th,
+#tabela-materia td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    width: 11.11%; /* Todas as colunas com largura igual (100% / 9 colunas) */
+}
+
+#tabela-materia th {
+    background-color: #8f0000;
+    color: white;
+}
+
+#tabela-materia .materia {
+    background-color: #e7e7e7;
+    font-weight: bold;
+}
+
+#tabela-materia .conteudo_materia {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+#tabela-materia tr:nth-child(even) .conteudo_materia {
+    background-color: #f2f2f2;
+}
+
+/* Adiciona o clear para a seção de contato */
+.Contato {
+    clear: both;
+    margin-top: 20px;
+}
